@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ScrapItems</string>
+    <string name="Dashboard">dashboard</string>
+    <string name="Favourites">favourites</string>
+    <string name="Profile">Profile</string>
+    <string name="About">about</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+</resources>
