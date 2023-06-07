@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DashboardFragment">
+    tools:context=".fragment.DashboardFragment">
 
 
     <TextView
@@ -13,4 +13,21 @@
         android:text="@string/dashboard_fragment"
         android:textSize="20sp"
         android:padding="10dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDashboard"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/btnCheckInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/design_default_color_primary"
+        android:text="Check Internet"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:textColor="#ffffff"/>
 </RelativeLayout>
